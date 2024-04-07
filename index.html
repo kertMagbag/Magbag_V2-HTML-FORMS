@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Langar&family=Pacifico&family=Patrick+Hand+SC&family=Song+Myung&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Langar&family=Song+Myung&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Langar&family=Pacifico&family=Song+Myung&display=swap" rel="stylesheet">
+        <link rel = "Stylesheet" href = "style.css"/>
+    </head>
+        <body>
+            <div class = "background">
+                <div id = "dropdown">
+                    <button class = "dropdown-toggle">
+                        <span>Menu</span>
+                        <i class = "fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class = "menu">
+                        <li class = "menu-item" ><a heref = "#">Caramel Macchiato</a></li>
+                        <li class = "menu-item" ><a heref = "#">Iced Americano</a></li>
+                        <li class = "menu-item dropdown">
+                            <a href = "#" class = "submenu-toggle">
+                                <span>Non-Coffee</span>
+                                <i class = "fa-solid fa-caret-right"></i>
+                            </a>
+                            <ul class = "submenu">
+                                <li class = "submenu-item"><a href = "#">Choco Lava Milk</a></li>
+                                <li class = "submenu-item"><a href = "#">ButterScotch Caramel</a></li>
+                                <li class = "submenu-item"><a href = "#">Strawberry Milk</a></li>
+                                <li class = "submenu-item"><a href = "#">Iced Matcha</a></li>
+                            </ul>
+                        </li>
+                            <li class = "menu-item"><a href = "#">Spanis Latte</a></li>
+                            <li class = "menu-item dropdown">
+                                <a href = "#" class = "submenu-toggle">
+                                    <span>Specials</span>
+                                    <i class = "fa-solid fa-caret-right"></i>
+                                </a>
+                                <ul class = "submenu">
+                                    <li class = "submenu-item"><a href = "#">Cheese cake</a></li>
+                                    <li class = "submenu-item"><a href = "#">Biscoff Croissant</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+
+                <div class = "logo-container">
+               
+                </div>
+    
+                <div class = "intro-container">
+                    <h1 class = "title"><i>Arcoff Cafe</i></h1>
+                    <h2 class = "subtitle">(<span>Cafe</span>-ling ka)</h2>
+    
+                    <h3 class = "basic-info">Looking for a perfect espresso escape? <br>Start your day right with The <span class = "arcoff">Arcoff Cafè.</span> <br>Every sip is a perfect trip.</h3>
+                </div>
+                <div class = "customer-info">
+                    <h2>Customer Information:</h2>
+                    <h1 class = "contact">Name:</h1>
+                    <h1 class = "contact">Email:</h1>
+                    <h1 class = "AGE">Age:</h1>
+                    <h2 class = "payment">Mode of Payment:</h2>
+                </div>
+
+                <div class = "contact-container">
+                    
+                        <input type = "text" placeholder="Name" /><br>
+                        <input type = "email" placeholder="Ex: pup@gmail.com"/>
+                        <input class = "Age" type = "number" placeholder="Age"/>
+                </div>
+
+                <div class = "payments-container">
+                    <button class = "Gcash">GCash</button><span class = "devider"> | </span>
+                    <button class = "cash">Cash</button>
+                </div>
+
+                <di class = "finish-button">
+                    <button class = "Place">Place Order</button>
+                    <button class = "Cancel">Cancel Order</button>
+                </di>
+            </div>
+
+            <div class = "secondBACKGROUND">
+                <h2 class = "Feedback">Comments / Feedback:</h2>
+                <textarea rows="8" cols="35"></textarea>
+
+                <h2 class = "Dine">Dine in / Take out:</h2>
+                <input class= "in"  type = "checkbox"  >
+                <h2 class = "Dine-in">Dine-in</h2>
+                <input class= "out"type = "checkbox" >
+                <h2 class = "take-out">Take-out</h2>
+              
+                
+            </div>
+        </body>
+        <script src = "script.js"></script>
+</html>
